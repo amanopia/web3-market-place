@@ -1,0 +1,50 @@
+.header__image {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    aspect-ratio: 2/1;
+    transition: var(--transition);
+}
+
+.header__image:hover {
+    transform: rotate(30deg);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__links {
+    display: flex;
+    align-items: baseline;
+    gap: 4rem;
+    font-weight: 500;
+}
+
+.mobile__navbar__button {
+    display: none;
+    background: transparent;
+}
+
+.nav__icon[name="close-icon"] {
+    display: none;
+}
+/* BREAKPOINT 1 */
+@media screen and (max-width: 1050px) {
+    .header__links {
+        gap: 2rem;
+    }
+}
+
+/* BREAKPOINT 2 */
+@media screen and (max-width: 980px) {
+    .header__links {
+        gap: 1.5rem;
+    }
+
+    .mobile__navbar__button {
+        display: block;
+    }
+}

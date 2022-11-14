@@ -59,8 +59,13 @@ h1 {
 }
 
 a {
-    color: var(--color-text-light);
+    color: #000000;
     transition: var(--transition);
+    font-size: 0.9rem;
+}
+
+a:hover {
+    color: var(--color-text-light);
 }
 
 .btn {
