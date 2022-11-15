@@ -1,9 +1,39 @@
 .textual__information {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 55% 45%;
     
 }
 
 .textual__information > div.group__two {
-    display: flex;
+    display: grid;
+    grid-template-columns: 60% 40%;
 }
+
+.textual__information > p {
+    font-family: "Fox on the Run Extra-Bold", sans-serif;
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+
+.group__two > p {
+    font-size: 0.7rem;
+    /* padding: 0 2rem; */
+    color: var(--color-text-light);
+}
+
+.textual__information > p::selection, .group__two > p::selection {
+    background: #000;
+    color: #fff;
+}
+
+.banner__btn {
+    /* To align the button in the bottom of the banner */
+    align-self: end;
+    display: block;
+    width: 100%;
+    background: #000;
+    border-radius: 0;
+    padding: 1.5rem 0
+}
+
