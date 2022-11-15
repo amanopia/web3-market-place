@@ -1,0 +1,9 @@
+.textual__information {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    
+}
+
+.textual__information > div.group__two {
+    display: flex;
+}

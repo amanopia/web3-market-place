@@ -1,4 +1,5 @@
 import React from 'react';
+import './banner.css';
 
 const Banner = () => {
     return (
@@ -6,8 +7,10 @@ const Banner = () => {
             <div className='container banner__container'>
                 <div className='textual__information'>
                     <h1>Sell, buy, discover, and collect NFT arts</h1>
-                    <p>With its constantly growing artist community and NFT-powered copyrights, the origin platform offers a safe haven for artits to express their creativity</p>
-                    <button>Explore Marketplace</button>
+                    <div className="group__two">
+                        <p>With its constantly growing artist community and NFT-powered copyrights, the origin platform offers a safe haven for artits to express their creativity</p>
+                        <button>Explore Marketplace</button>
+                    </div>
                 </div>
                 <div className='pictures'>
                 {/* CARD1 */}
