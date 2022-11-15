@@ -44,7 +44,40 @@
         gap: 1.5rem;
     }
 
-    .mobile__navbar__button {
-        display: block;
+    .header__links > a{
+        font-size: 0.7rem;
     }
 }
+
+/* BREAKPOINT 3 */
+@media screen and (max-width: 900px) {
+    .mobile__navbar__button {
+        display: block;
+        background: var(--color-light);
+        color: #fff;
+        padding: 0.4rem 0.7rem;
+        border-radius: 50%;
+        transition: var(--transition);
+    }
+
+    .mobile__navbar__button:hover {
+        border-radius: 20%;
+    }
+
+    .header__container {
+        position: relative;
+    }
+
+    .header__links {
+        /* display: none; */
+        width: 100%;
+        height: 100vh;
+        background: var(--color-light);
+        position: absolute;
+    }
+
+    .header__links > a {
+        font-size: 0.9rem;
+    }
+}
+/* 1em = 16px */
