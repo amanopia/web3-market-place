@@ -1,0 +1,19 @@
+body{
+    background: #000;
+}
+.card {
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    /* border-radius: 20%; */
+    background: #fff;
+    width: 30%;
+    color: #000;
+    object-fit: cover;
+}
+
+.text__belows {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    gap: 1rem;
+}
