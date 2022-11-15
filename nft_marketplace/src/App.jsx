@@ -1,9 +1,11 @@
-import Header from './components/header/Header.jsx';
+import Header from './components/header/Header';
+import Banner from './components/banner/banner';
 
 function App() {
   return (
     <>
       <Header />
+      <Banner />
     </>
   );
 }

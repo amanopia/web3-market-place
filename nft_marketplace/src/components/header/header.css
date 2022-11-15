@@ -1,3 +1,11 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 .header__image {
     width: 8rem;
     height: 8rem;
@@ -58,6 +66,7 @@
         padding: 0.4rem 0.7rem;
         border-radius: 50%;
         transition: var(--transition);
+        z-index:200;
     }
 
     .mobile__navbar__button:hover {
@@ -72,8 +81,24 @@
         /* display: none; */
         width: 100%;
         height: 100vh;
-        background: var(--color-light);
+        /* background: var(--color-light); */
         position: absolute;
+        top: 0;
+        /* color: #fff; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        /* Making the transition */
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+
     }
 
     .header__links > a {
