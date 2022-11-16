@@ -3,6 +3,8 @@ import Banner from './components/banner/Banner';
 import Card from './components/Cards/Card';
 
 function App() {
+
+  
   return (
     <>
       <Header />
