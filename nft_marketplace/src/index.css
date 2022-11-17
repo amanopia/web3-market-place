@@ -38,6 +38,11 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
+    
+    /* To disable double scrollbars */
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 /* ++++++++++++++ GENERAL STYLES ++++++++++++++ */
