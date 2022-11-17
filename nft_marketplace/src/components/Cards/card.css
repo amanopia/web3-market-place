@@ -11,6 +11,7 @@
     width: 30%;
     color: #000;
     transition: var(--transition);
+    filter: drop-shadow(0 0 1rem rgb(151, 151, 151));
 }
 
 .card:hover {
@@ -24,5 +25,15 @@
     border-radius: 5%;
 }
 
-.card__text {
+.price__data, .creator__data {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto auto;
+    
+}
+
+small {
+    color: var(--color-text-light);
+    font-size: 0.7rem;
+    font-weight: bold;
 }

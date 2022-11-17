@@ -1,6 +1,5 @@
 import Header from './components/header/Header';
 import Banner from './components/banner/Banner';
-import Card from './components/Cards/Card';
 
 function App() {
 
@@ -9,7 +8,6 @@ function App() {
     <>
       <Header />
       <Banner />
-      <Card />
     </>
   );
 }
