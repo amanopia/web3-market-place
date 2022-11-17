@@ -1,6 +1,10 @@
 /* body{
     background: #000;
 } */
+
+/* .card__container {
+    height: 20rem;
+} */
 .card {
     padding: 1rem;
     display: flex;
@@ -8,15 +12,11 @@
     gap: 1rem;
     border-radius: 5%;
     background: #fff;
-    width: 30%;
+    width: 20rem;
+    height: 29rem;
     color: #000;
     transition: var(--transition);
     filter: drop-shadow(0 0 1rem rgb(151, 151, 151));
-}
-
-.card:hover {
-    transform: translateY(-2rem);
-    
 }
 
 .card > img {

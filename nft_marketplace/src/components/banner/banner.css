@@ -1,6 +1,7 @@
 .textual__information {
     display: grid;
     grid-template-columns: 55% 45%;
+    margin: 0 auto 7rem;
     
 }
 
@@ -45,7 +46,36 @@
     background: linear-gradient(#c7b0ff, #A292F6, #AA7AE9, #ED85D6);
 }
 
-/* .pictures :nth-child(n) {
+.banner__container {
+    position: relative;
+}
+
+.banner__container :nth-child(3) {
     position: absolute;
-    width: auto;
-} */
+    top: 15rem;
+    right: 5rem;
+    transform: rotate(-30deg);
+    transition: var(--transition);
+}
+
+.banner__container :nth-child(3):hover {
+    transform: translateY(-2rem) rotate(-30deg);
+}
+
+.banner__container :nth-child(4) {
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    transform: rotate(-30deg);
+    transition: var(--transition);
+}
+
+.banner__container :nth-child(4):hover {
+    transform: translateY(-2rem) rotate(-30deg);
+
+}
+
+
+/* To stop the cards from resizing, made them free, and not targetting them with a div by making their position adsolute */
+/* Targetting them individually using nth-child of parent container. classes on imported elements don't work*/
+/* Setting their fixed height and width in the main card component */
