@@ -110,6 +110,11 @@
         gap: 2rem;
     }
 
+    .banner__btn {
+        width: 40%;
+        align-self: center;
+    }
+
     .banner__container :nth-child(3) {
         top: 30rem;
         right: 3rem;
