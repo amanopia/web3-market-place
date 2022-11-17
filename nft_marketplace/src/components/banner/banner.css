@@ -37,3 +37,15 @@
     padding: 1.5rem 0
 }
 
+.pictures {
+    height: 28rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    background: linear-gradient(#c7b0ff, #A292F6, #AA7AE9, #ED85D6);
+}
+
+/* .pictures :nth-child(n) {
+    position: absolute;
+    width: auto;
+} */
