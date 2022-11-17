@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 55% 45%;
     margin: 0 auto 7rem;
-    
 }
 
 .textual__information > div.group__two {
@@ -39,7 +38,7 @@
 }
 
 .pictures {
-    height: 28rem;
+    height: 24rem;
     position: relative;
     display: grid;
     grid-template-columns: repeat(1fr, 1fr);
@@ -53,7 +52,7 @@
 .banner__container :nth-child(3) {
     position: absolute;
     top: 15rem;
-    right: 5rem;
+    right: 10rem;
     transform: rotate(-30deg);
     transition: var(--transition);
 }
@@ -65,7 +64,7 @@
 .banner__container :nth-child(4) {
     position: absolute;
     top: 15rem;
-    left: 5rem;
+    left: 10rem;
     transform: rotate(-30deg);
     transition: var(--transition);
 }
@@ -76,6 +75,67 @@
 }
 
 
+
 /* To stop the cards from resizing, made them free, and not targetting them with a div by making their position adsolute */
 /* Targetting them individually using nth-child of parent container. classes on imported elements don't work*/
 /* Setting their fixed height and width in the main card component */
+
+/* BREAKPOINT 1 */
+@media screen and (max-width: 990px) {
+    .banner__container :nth-child(3) {
+        top: 20rem;
+        right: 8rem;
+    }
+    
+    .banner__container :nth-child(4) {
+        top: 20rem;
+        left: 8rem;
+    }
+}
+
+/* BREAKPOINT 2 */
+@media screen and (max-width: 750px) {
+    .textual__information {
+        display: block;
+        text-align:center;
+    }
+
+    .textual__information > p {
+        margin: 0 auto 2rem;
+    }
+
+    .textual__information > div.group__two {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .banner__container :nth-child(3) {
+        top: 30rem;
+        right: 3rem;
+    }
+    
+    .banner__container :nth-child(4) {
+        top: 30rem;
+        left: 3rem;
+    }
+}
+
+/* BREAKPOINT 3 */
+
+@media screen and (max-width: 550px) {
+
+    .banner__container :nth-child(3) {
+        top: 34rem;
+        right: 3rem;
+    }
+    
+    .banner__container :nth-child(4) {
+        top: 34rem;
+        left: 3rem;
+    }
+
+    .textual__information {
+        margin: 0 auto 5rem;
+    }
+}
