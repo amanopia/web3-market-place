@@ -1,5 +1,6 @@
 import Header from './components/header/Header';
 import Banner from './components/banner/Banner';
+import Trending from './components/trending/Trending'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Banner />
+      <Trending />
     </>
   );
 }

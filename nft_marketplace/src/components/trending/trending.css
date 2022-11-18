@@ -1,0 +1,41 @@
+section.trending__container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    /* Working along the cross axis - left to right */
+    align-items: center;
+}
+
+section > h1 {
+    width: 40%;
+    font-size: 2.5rem;
+    line-height: 1.4
+}
+
+section > small {
+    width: 40%;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--color-text-light);
+}
+
+.trending__button {
+    padding: 1rem 1.1rem;
+    border-radius: 50%;
+    background: rgb(51, 51, 51);
+    filter: drop-shadow(0 0 0.3rem rgb(0, 0, 0));
+    transition: var(--transition);
+}
+
+.trending__button:hover {
+    cursor: pointer;
+    padding: 1.1rem 1.2rem;
+    background: var(--color-light);
+    filter: drop-shadow(0 0 0.3rem #785dff);
+}
+.trending__icon {
+    color: #fff;
+    transform: rotate(45deg);
+}

@@ -1,5 +1,8 @@
 import React from 'react';
 import './banner.css';
+import Card from '../Cards/Card';
+import Image1 from '../../assets/8machine-_-uT4XkN39vcw-unsplash.jpg';
+import Image2 from '../../assets/8machine-_-GVAYgLlpeZ8-unsplash.jpg';
 
 const Banner = () => {
     return (
@@ -14,10 +17,11 @@ const Banner = () => {
                         </button>
                     </div>
                 </div>
-                <div className='pictures'>
+                <div className='pictures'> </div>
                 {/* CARD1 */}
+                <Card image={Image1}/>
                 {/* CARD2 */}
-                </div>
+                <Card image={Image2}/>
             </div>
         </section>
         
