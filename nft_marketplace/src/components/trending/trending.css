@@ -40,4 +40,41 @@ section > small {
     transform: rotate(45deg);
 }
 
-/* BREAKPOINT  */
+/* BREAKPOINT  1*/
+@media screen and (max-width: 990px) {
+    
+    section.trending__container {
+        margin-top: 5rem;
+    }
+
+    section > h1, section > small {
+        width: 60%;
+    }
+}
+
+/* BREAKPOINT 2 */
+@media screen and (max-width: 750px) {
+
+    section.trending__container {
+        margin-top: 15rem;
+    }
+
+    section > h1, section > small {
+        width: 60%;
+    }
+}
+
+/* BREAKPOINT 3 */
+@media screen and (max-width: 550px) {
+
+    section.trending__container {
+        margin-top: 15rem;
+    }
+}
+
+/* BREAKPOINT 4 */
+@media screen and (max-width: 500px) {
+    section.trending__container {
+        margin-top: 10rem;
+    }
+}
