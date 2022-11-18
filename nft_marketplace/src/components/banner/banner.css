@@ -147,3 +147,15 @@
         margin: 0 auto 5rem;
     }
 }
+
+/* BREAKPOINT 4 */
+
+@media screen and (max-width: 320px) {
+    .banner__container :nth-child(3){
+        top: 40rem;
+    }
+    
+    .banner__container :nth-child(4){
+        top: 40rem;
+    }
+}
