@@ -82,11 +82,13 @@
 
 /* BREAKPOINT 1 */
 @media screen and (max-width: 990px) {
+
+    /* Targetting cards */
     .banner__container :nth-child(3) {
         top: 20rem;
         right: 8rem;
     }
-    
+    /* Targetting cards */
     .banner__container :nth-child(4) {
         top: 20rem;
         left: 8rem;
@@ -115,11 +117,12 @@
         align-self: center;
     }
 
+    /* Targetting cards */
     .banner__container :nth-child(3) {
         top: 30rem;
         right: 3rem;
     }
-    
+    /* Targetting cards */
     .banner__container :nth-child(4) {
         top: 30rem;
         left: 3rem;
@@ -129,12 +132,12 @@
 /* BREAKPOINT 3 */
 
 @media screen and (max-width: 550px) {
-
+    /* Targetting cards */
     .banner__container :nth-child(3) {
         top: 34rem;
         right: 3rem;
     }
-    
+    /* Targetting cards */
     .banner__container :nth-child(4) {
         top: 34rem;
         left: 3rem;

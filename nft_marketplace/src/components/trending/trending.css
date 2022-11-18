@@ -16,8 +16,8 @@ section > h1 {
 
 section > small {
     width: 40%;
-    font-size: 0.7rem;
-    font-weight: 500;
+    font-size: 0.8rem;
+    /* font-weight: 500; */
     color: var(--color-text-light);
 }
 
@@ -39,3 +39,5 @@ section > small {
     color: #fff;
     transform: rotate(45deg);
 }
+
+/* BREAKPOINT  */
