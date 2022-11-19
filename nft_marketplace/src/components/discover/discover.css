@@ -1,3 +1,6 @@
+.discover__container {
+    margin-bottom: 10rem;
+}
 .tag__container {
     display: flex;
     justify-content: space-between;
@@ -10,6 +13,15 @@
 
 section.discover__container > h2 {
     margin-bottom: 1rem;
+}
+
+
+.smaller__cards__grid__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    
 }
 
 @media screen and (max-width: 750px) {
