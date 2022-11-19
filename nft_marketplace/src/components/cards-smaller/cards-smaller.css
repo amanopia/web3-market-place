@@ -37,3 +37,16 @@
     background: #000;
     align-self: end;
 }
+
+@media screen and (max-width: 1000px) {
+    .smaller__card {
+        width: 15rem;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .smaller__card {
+        width: 1
+    }
+}
