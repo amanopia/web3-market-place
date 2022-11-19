@@ -1,0 +1,39 @@
+.smaller__card {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    background: #fff;
+    width: 16rem;
+    height: max-content;
+    border-radius: 5%;
+    transition: var(--transition);
+    filter: drop-shadow(0 0 1rem rgb(151, 151, 151));
+}
+.smaller__card > img{
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 4%;
+}
+.smaller__card__text > h4 {
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+
+.bid > div > p{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.bid > div > small {
+    font-size: 0.6rem;
+}
+
+.bid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bid__btn {
+    background: #000;
+    align-self: end;
+}
