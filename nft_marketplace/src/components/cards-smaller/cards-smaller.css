@@ -10,6 +10,7 @@
     transition: var(--transition);
     filter: drop-shadow(0 0 1rem rgb(151, 151, 151));
 }
+
 .smaller__card > img{
     height: 10rem;
     object-fit: cover;
