@@ -38,6 +38,7 @@
     align-self: end;
 }
 
+/* BREAKPOINT 1 */
 @media screen and (max-width: 1000px) {
     .smaller__card {
         width: 15rem;
@@ -45,8 +46,40 @@
     }
 }
 
-@media screen and (max-width: 980px) {
+/* BREAKPOINT 2 */
+@media screen and (max-width: 940px) {
     .smaller__card {
-        width: 1
+        width: 22rem;
     }
 }
+
+/* BREAKPOINT 3 */
+@media screen and (max-width: 900px) {
+    .smaller__card {
+        width: 21rem;
+    }
+}
+
+/* BREAKPOINT 4 */
+@media screen and (max-width: 860px){
+    .smaller__card {
+        width: 20rem;
+    }
+}
+
+/* BREAKPOINT 5 */
+@media screen and (max-width: 820px) {
+    .smaller__card {
+        width: 18rem;
+    }
+} 
+
+/* Useless breakpoint. Breakpoint added in discover.css for the card */
+/* @media screen and (max-width: 740px) {
+    .smaller__card {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+} */
