@@ -36,4 +36,27 @@ h2 {
         display: block;
         text-align: center;
     }
+    .collection__header > div {
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width: 565px) {
+    .collection__header > div :nth-child(n) {
+        display: block;
+        text-align: center;
+    }
+    .collection__header > div :nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .collection__header > div {
+        padding: 2rem;
+    }
+
+    section.collection__container {
+        margin-top: 3rem;
+    }
 }
