@@ -22,12 +22,12 @@ const CollectionData = (props) => {
                     <h4>{props.percentage}</h4>
                 </div>
                 <div className='collection__data__lower'>
-                    <div>
+                    <div className='side__left'>
                         <small>Floor Price</small>
                         <CgArrowsExchangeAltV />
                         <small>{props.rateFraction}</small>
                     </div>
-                    <div>
+                    <div className='side__right'>
                         <CgArrowsExchangeAltV />
                         <small>{props.rate}</small>
                     </div>
