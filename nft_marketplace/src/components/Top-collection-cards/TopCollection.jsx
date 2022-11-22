@@ -1,5 +1,5 @@
 import './TopCollection.css'
-// import {CgArrowsExchangeAltV} from 'react-icons/cg';
+import {CgArrowsExchangeAltV} from 'react-icons/cg';
 import Image from '../../assets/1125.webp'
 import Image2 from '../../assets/bayc.jpg'
 import Image3 from '../../assets/bayc2.jpg'
@@ -17,7 +17,23 @@ const CollectionData = (props) => {
                 <img src={props.image} alt="someImg" />
             </div>
             <div className='top__collection__data'>
-                
+                <div className='collection__data__upper'>
+                    <h4>{props.title}</h4>
+                    <h4>{props.percentage}</h4>
+                </div>
+                <div className='collection__data__lower'>
+                    <div>
+                        <small>Floor Price</small>
+                        <CgArrowsExchangeAltV />
+                        <small>{props.rateFraction}</small>
+                    </div>
+                    <div>
+                        <CgArrowsExchangeAltV />
+                        <small>{props.rate}</small>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     )
