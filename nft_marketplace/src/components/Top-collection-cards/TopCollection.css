@@ -1,6 +1,19 @@
-.collection__data > img {
+.collection__image > img {
     height: 3rem;
     width: 3rem;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.collection__data {
+    display: flex;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.top__collection__data > div{
+    display: flex;
+    gap: 2rem;
+    align-items: baseline;
 }
