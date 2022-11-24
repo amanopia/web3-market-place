@@ -11,7 +11,18 @@ const Collection = () => {
                 </div>
                 <a href="#asda">View Ranking</a>
             </div>
-            <CollectionData />
+            <div className='collection__data'>
+                <CollectionData />
+                <CollectionData />
+                <CollectionData />
+                <CollectionData />
+                <CollectionData />
+                <CollectionData />
+                <CollectionData />
+                <CollectionData />
+                <CollectionData />
+            </div>
+            
         </section>
     )
 }

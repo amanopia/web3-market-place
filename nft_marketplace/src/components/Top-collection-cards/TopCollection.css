@@ -17,3 +17,9 @@
     gap: 2rem;
     align-items: baseline;
 }
+
+
+.collection__data {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -41,7 +41,7 @@ const CollectionData = (props) => {
                         <small>2382.32</small>
                     </div>
                 </div>
-
+                
             </div>
         </div>
     )
