@@ -30,6 +30,13 @@ h2 {
     gap: 1rem;
 }
 
+.small__cards__container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 5rem;
+}
+
 /* CHROME TABLET SIZE */
 @media screen and (max-width: 768px){
     .collection__header {
