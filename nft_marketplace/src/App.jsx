@@ -3,6 +3,7 @@ import Banner from './components/banner/Banner';
 import Trending from './components/trending/Trending'
 import Discover from './components/discover/Discover';
 import Collection from './components/top-collection/Collection';
+import CheckCollection from './components/check-collections/Check';
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
       <Header />
       <Banner />
       <Trending />
-      <Discover />
+      {/* <Discover /> */}
       <Collection />
+      <CheckCollection />
     </>
   );
 }

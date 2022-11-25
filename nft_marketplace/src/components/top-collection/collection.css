@@ -3,9 +3,14 @@
 section.collection__container {
     margin-top: 5rem;
 }
+
+.collection__container {
+    margin-bottom: 5rem;
+}
 h2 {
     font-size: 1.8rem;
 }
+
 .gradient {
     background: linear-gradient(90deg, #76f4ac, #63d5ca, #51baeb, #48adf9, #5ca3e6, #6a7af5, #6e74f3, #7f55f8, #8952eb, #9c4be0, #b354b3, #c9569c, #de5f6f, #ed634f, #f4b589, #f2b35b, #ecc861, #ebe975, #ebf492);
     background-clip: text;
