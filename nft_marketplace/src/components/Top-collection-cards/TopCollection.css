@@ -4,3 +4,48 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+.collection__data {
+    /* display: grid;
+    grid-template-columns: 10% 10% 80%;
+    column-gap: 1.5rem;
+    align-items: center;
+    border: 0 0 1px var(--color-text-light); */
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    align-items: center;
+}
+
+/* .data :nth-child(n) {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+} */
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    align-items: flex-end;
+}
+.lower {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    align-items: center;
+}
+
+.floor__price__data {
+    display: flex;
+    align-items: center;
+}
+.result__data {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+}

@@ -31,10 +31,14 @@ h2 {
 }
 
 .small__cards__container {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3, 1fr);
-    column-gap: 5rem;
+    column-gap: 5rem; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
 }
 
 /* CHROME TABLET SIZE */

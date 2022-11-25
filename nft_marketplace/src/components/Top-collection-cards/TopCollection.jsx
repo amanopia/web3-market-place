@@ -18,12 +18,12 @@ const CollectionData = (props) => {
             {/* Data */}
             <div className='data'>
                 {/* Data row name */}
-                <div>
+                <div className='upper'>
                     <h4>{props.heading}</h4>
                     <h4>{props.percentage}</h4>
                 </div>
                 {/* Data row price*/}
-                <div>
+                <div className='lower'>
                     <div className='floor__price__data'>
                         <small>Floor Price: </small>
                         <CgArrowsExchangeAltV />

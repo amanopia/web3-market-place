@@ -18,7 +18,10 @@ const Collection = () => {
                 <a href="#asda">View Ranking</a>
             </div>
             <div className='small__cards__container'>
-                <CollectionData number="1" source={Image} heading="Trippin" percentage="67.80%" num="0.32" result="363.3"/>
+                <CollectionData number="1" source={Image} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
+                <CollectionData number="1" source={Image} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
+                <CollectionData number="1" source={Image} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
+                <CollectionData number="1" source={Image} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
                 
             </div>
 
