@@ -12,9 +12,11 @@
     align-items: center;
     border: 0 0 1px var(--color-text-light); */
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    padding: 0 0.5rem 1rem;
     gap: 1rem;
     align-items: center;
+    border-bottom:  2px solid rgb(212, 212, 212);
 }
 
 /* .data :nth-child(n) {
@@ -46,6 +48,46 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+.icon {
+    margin: 0 0.2rem;
+}
+@media screen and (max-width: 1260px) {
+    .collection__data {
+        width: 45%;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 1215px) {
+    .collection__data {
+        width: 40%;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 1016px) {
+    .collection__data {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 903px) {
+    .collection__data {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    /* Stops the text Floor price from going to the next line */
+    .floor__price__data > small{
+        width: max-content
+    }
+
+    .upper, .lower {
+        gap: 2rem;
+    }
+    .upper > h4 {
+        font-size: 0.9rem;
+    }
 
 }

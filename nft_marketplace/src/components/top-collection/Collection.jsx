@@ -19,10 +19,17 @@ const Collection = () => {
             </div>
             <div className='small__cards__container'>
                 <CollectionData number="1" source={Image} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
+                <CollectionData number="1" source={Image2} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
+                <CollectionData number="1" source={Image3} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
+                <CollectionData number="1" source={Image4} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
                 <CollectionData number="1" source={Image} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
+                <CollectionData number="1" source={Image2} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
+                <CollectionData number="1" source={Image3} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
+                <CollectionData number="1" source={Image4} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
                 <CollectionData number="1" source={Image} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
-                <CollectionData number="1" source={Image} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
-                
+                <CollectionData number="1" source={Image2} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
+                <CollectionData number="1" source={Image3} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>
+                <CollectionData number="1" source={Image4} heading="Trippin" percentage="+67.80%" num="0.32" result="363.3"/>                
             </div>
 
             

@@ -26,11 +26,11 @@ const CollectionData = (props) => {
                 <div className='lower'>
                     <div className='floor__price__data'>
                         <small>Floor Price: </small>
-                        <CgArrowsExchangeAltV />
+                        <CgArrowsExchangeAltV className='icon'/>
                         <small>{props.num}</small>
                     </div>
                     <div className='result__data'>
-                        <CgArrowsExchangeAltV />
+                        <CgArrowsExchangeAltV className='icon'/>
                         <small>{props.result}</small>
                     </div>
                 </div>

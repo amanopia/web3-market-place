@@ -22,6 +22,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 3.5rem;
 }
 
 .collection__header :nth-child(1) {
