@@ -17,11 +17,14 @@
     display: flex;
     justify-content: space-between;
     padding: 0 0.5rem 1rem;
-    gap: 1rem;
+    gap: 0.8rem;
     align-items: center;
     border-bottom:  2px solid rgb(212, 212, 212);
 }
 
+.number > p {
+    font-size: 0.8rem;
+}
 /* .data :nth-child(n) {
     display: flex;
     justify-content: space-between;
@@ -53,13 +56,21 @@
 
 .icon {
     margin: 0 0.2rem;
+    color: #2149fa;
 }
 
 .verified {
     color: #51baeb;
     position: absolute;
     top: 2.1rem;
-    left: 2.1rem;
+    left: 2.4rem;
+}
+
+.up {
+    color: var(--color-active-accent)
+}
+.down {
+    color: var(--color-down);
 }
 @media screen and (max-width: 1260px) {
     .collection__data {
@@ -102,3 +113,11 @@
 
 }
 
+@media screen and (max-width: 340px) {
+    .upper > h4 {
+        font-size: 0.6rem;
+    }
+    .upper, .lower {
+        gap: 1rem;
+    }
+}

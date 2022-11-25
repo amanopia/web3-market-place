@@ -22,7 +22,7 @@ const CollectionData = (props) => {
                 {/* Data row name */}
                 <div className='upper'>
                     <h4>{props.heading}</h4>
-                    <h4>{props.percentage}</h4>
+                    <h4 className={props.state}>{props.percentage}</h4>
                 </div>
                 {/* Data row price*/}
                 <div className='lower'>

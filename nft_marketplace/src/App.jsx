@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Banner />
       <Trending />
-      {/* <Discover /> */}
+      <Discover />
       <Collection />
     </>
   );
