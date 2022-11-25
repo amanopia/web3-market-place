@@ -1,3 +1,6 @@
+.collection__image {
+    position: relative;
+}
 .collection__image > img {
     height: 3rem;
     width: 3rem;
@@ -51,6 +54,13 @@
 .icon {
     margin: 0 0.2rem;
 }
+
+.verified {
+    color: #51baeb;
+    position: absolute;
+    top: 2.1rem;
+    left: 2.1rem;
+}
 @media screen and (max-width: 1260px) {
     .collection__data {
         width: 45%;
@@ -91,3 +101,4 @@
     }
 
 }
+

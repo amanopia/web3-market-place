@@ -1,6 +1,6 @@
 import './TopCollection.css'
 import {CgArrowsExchangeAltV} from 'react-icons/cg';
-
+import {GoVerified} from 'react-icons/go';
 
 
 
@@ -14,6 +14,8 @@ const CollectionData = (props) => {
             {/* Image */}
             <div className='collection__image'>
                 <img src={props.source} alt="img"/>
+                {/* Verified Mark */}
+                <GoVerified className='verified' />
             </div>
             {/* Data */}
             <div className='data'>
@@ -35,6 +37,7 @@ const CollectionData = (props) => {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }
