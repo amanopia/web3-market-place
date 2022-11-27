@@ -1,0 +1,31 @@
+.collection__top {
+    display: grid;
+    grid-template-columns: 10% 20% 40% 30%;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid var(--color-text-light);
+    padding-bottom: 1rem;
+}
+.collection__top > img {
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+.up {
+    color: var(--color-active-accent)
+}
+.down {
+    color: var(--color-down);
+}
+
+.price__dat{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    gap: 0.5rem;
+}

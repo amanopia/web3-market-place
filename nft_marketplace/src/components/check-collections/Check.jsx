@@ -1,5 +1,6 @@
 import './check.css'
 import CheckBid from '../check__bid__cards/CheckBid';
+import CheckCollectioTop from '../check__collection__cards/CheckCollectioTop';
 import {FaEthereum} from 'react-icons/fa';
 import ImagePerson1 from '../../assets/person1 (1).jpg';
 import ImagePerson2 from '../../assets/person2 (1).jpg';
@@ -47,8 +48,17 @@ const CheckCollection = () => {
                 </div>
                 {/* Item 3 */}
                 <div className="section__three">
-                    <h3>TOP COLLECTION OVER</h3>
-                    <h4>Last 7 days</h4>
+                    <div>
+                        <h3>TOP COLLECTION OVER</h3>
+                        <h4>Last 7 days</h4>
+                    </div>
+                    <div>
+                        <CheckCollectioTop number="1" image={Image1} heading="CryptoFunks" price="19,769.39" percentage="+26.52%" state="up"/>
+                        <CheckCollectioTop number="2" image={Image1} heading="Cryptix" price="2,769.41" percentage="+10.52%" state="down"/>
+                        <CheckCollectioTop number="3" image={Image1} heading="Frensware" price="9,232.34" percentage="+3.41%" state="up"/>
+                        <CheckCollectioTop number="4" image={Image1} heading="PunkArt" price="71,234.12" percentage="+12.11%" state="up"/>
+                        <CheckCollectioTop number="5" image={Image1} heading="ArtcRYPTO" price="10,111.31" percentage="+18.19%" state="down"/>
+                    </div>
                 </div>
             </div>
         </div>
