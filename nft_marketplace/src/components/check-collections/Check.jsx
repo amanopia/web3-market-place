@@ -11,10 +11,13 @@ import Image4 from '../../assets/palette4.jpg';
 const CheckCollection = () => {
     return (
         <div className="container collection__container" id="check__collections">
+            {/* Item 1 */}
             <div className="header">
                 <h2>Check the Collections</h2>
             </div>
+            {/* Item 2 */}
             <div className="check__items">
+                {/* Item 1 */}
                 <div className="section__one">
                     {/* Item 1 */}
                     <img src={Image1} alt="something"/>
@@ -36,11 +39,13 @@ const CheckCollection = () => {
                         </div>
                     </div>
                 </div>
+                {/* Item 2 */}
                 <div className="section__two">
                     <CheckBid image={Image2} person={ImagePerson1} title="Nether World"/>
                     <CheckBid image={Image3} person={ImagePerson2} title="All That Gl..."/>
                     <CheckBid image={Image4} person={ImagePerson1} title="Floral Clac..."/>
                 </div>
+                {/* Item 3 */}
                 <div className="section__three">
                     <h3>TOP COLLECTION OVER</h3>
                     <h4>Last 7 days</h4>

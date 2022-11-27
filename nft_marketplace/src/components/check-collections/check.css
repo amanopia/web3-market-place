@@ -4,10 +4,16 @@
     gap: 1rem;
 }
 
-.collection__container {
-
+.collection__container .header{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
 }
 
+.section__three > h4{
+    color: var(--color-accent-dark);
+    font-size: 0.8rem;
+}
 .section__one {
     padding-right:  1rem;
     display: flex;
