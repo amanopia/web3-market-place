@@ -1,6 +1,6 @@
 .check__bid  img{
-    height: 8.5rem;
-    width: 8.5rem;
+    height: 8rem;
+    width: 8rem;
     object-fit: cover;
     border-radius: 1rem;
 }
@@ -47,4 +47,19 @@ button.check__bid__btn {
     color: #fff;
     background: var(--color-accent-dark);
     border-radius: 2.2rem;
+}
+
+@media screen and (max-width: 1210px) {
+    .check__bid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .check__bid > img {
+        width: 100%;
+    }
+    .data__block__parent {
+        display: flex;
+        flex-direction: column;
+    }
 }

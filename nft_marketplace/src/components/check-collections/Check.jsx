@@ -52,7 +52,7 @@ const CheckCollection = () => {
                         <h3>TOP COLLECTION OVER</h3>
                         <h4>Last 7 days</h4>
                     </div>
-                    <div>
+                    <div className='collection__table__data'>
                         <CheckCollectioTop number="1" image={Image1} heading="CryptoFunks" price="19,769.39" percentage="+26.52%" state="up"/>
                         <CheckCollectioTop number="2" image={Image1} heading="Cryptix" price="2,769.41" percentage="+10.52%" state="down"/>
                         <CheckCollectioTop number="3" image={Image1} heading="Frensware" price="9,232.34" percentage="+3.41%" state="up"/>
