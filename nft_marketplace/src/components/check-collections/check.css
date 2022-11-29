@@ -81,11 +81,21 @@
     .collection__table__data {
         /* The width of the container is being liited by the width of the parent container, so to get it out of the flow, position:absolute is being used */
         position: absolute; 
+        
         grid-template-columns: repeat(2, 1fr);
         width: 85%;
         
     }
-
-    
-
 }
+
+@media screen and (max-width: 1024px) {
+    .collection__table__data {
+        /* The width of the container is being liited by the width of the parent container, so to get it out of the flow, position:absolute is being used */
+        position: absolute; 
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        
+    }
+}
+
+@media screen and (max-width: 960px) {}
