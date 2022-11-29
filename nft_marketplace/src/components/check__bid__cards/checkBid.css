@@ -66,9 +66,16 @@ button.check__bid__btn {
 
 @media screen and (max-width: 960px){
     .check__bid {
-        /* grid-template-columns: ; */
+        grid-template-columns: 35% 60%;
     }
     /* .check__bid > img {
         width: 80%;
     } */
+}
+
+@media screen and (max-width: 810px) {
+    .check__bid {
+        display: flex;
+        flex-direction: column;
+    }
 }

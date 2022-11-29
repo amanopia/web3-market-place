@@ -98,4 +98,21 @@
     }
 }
 
-@media screen and (max-width: 960px) {}
+@media screen and (max-width: 810px) {
+    .check__items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section__one {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .section__one {
+        gap: 2rem;
+    }
+
+    .section__two {
+        display: flex;
+        justify-content: space-between;
+    }
+}
