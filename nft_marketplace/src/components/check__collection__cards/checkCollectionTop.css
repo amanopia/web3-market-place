@@ -29,3 +29,9 @@
     justify-content: flex-start;
     gap: 0.5rem;
 }
+
+@media screen and (max-width: 960px) {
+    .collection__top :nth-child(4){
+        font-size: 0.8rem;
+    }
+}
