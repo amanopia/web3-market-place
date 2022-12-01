@@ -68,9 +68,6 @@ button.check__bid__btn {
     .check__bid {
         grid-template-columns: 35% 60%;
     }
-    /* .check__bid > img {
-        width: 80%;
-    } */
 }
 
 @media screen and (max-width: 810px) {
