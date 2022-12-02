@@ -123,5 +123,9 @@
         /* Sets the display to inline to let the elements accomodate as much space as they want */
         display: inline;
     }
-    
+
+    .collection__table__data {
+        /* changing from two grid-columns to 1 */
+        grid-template-columns: 1fr;
+    }
 }

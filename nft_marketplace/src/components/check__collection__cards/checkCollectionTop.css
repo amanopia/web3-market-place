@@ -14,8 +14,6 @@
     border-radius: 50%;
 }
 
-
-
 .up {
     color: var(--color-active-accent)
 }
@@ -35,3 +33,10 @@
         font-size: 0.8rem;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .collection__top :nth-child(4) {
+        justify-self: flex-end;
+    }
+}
+
