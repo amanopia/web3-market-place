@@ -40,3 +40,8 @@
     }
 }
 
+@media screen and (max-width: 380px){
+    .text__data {
+        margin-left: 0.8rem;
+    }
+}
