@@ -48,7 +48,7 @@ const CheckCollection = () => {
                 </div>
                 {/* Item 3 */}
                 <div className="section__three">
-                    <div>
+                    <div className='section__three__heading'>
                         <h3>TOP COLLECTION OVER</h3>
                         <h4>Last 7 days</h4>
                     </div>
