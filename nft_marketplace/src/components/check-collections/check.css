@@ -117,3 +117,11 @@
         justify-content: space-between;
     }
 }
+
+@media screen and (max-width: 700px){
+    .section__two {
+        /* Sets the display to inline to let the elements accomodate as much space as they want */
+        display: inline;
+    }
+    
+}

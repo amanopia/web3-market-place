@@ -3,7 +3,7 @@ import {FaEthereum} from 'react-icons/fa';
 
 const CheckCollectioTop = (props) => {
   return (
-    <div className='collection__top'>
+    <div className='collection__top'> 
         {/* Item 1 */}
         <div>
             <h4>{props.number}</h4>

@@ -16,7 +16,7 @@ const CheckBid = (props) => {
         {/* Item 2 */}
         <div className='data__block__parent '>
             {/* Item 1 */}
-            <h4>{props.title}</h4>
+            <h4>{props.title}</h4> 
             {/* Item 2 */}
             <div className='data__block'>
                 <img src={props.person} alt="person" />
