@@ -5,9 +5,9 @@
 }
 
 .collection__container .header{
-    margin-top: 8rem;
+    margin-top: 6rem;
     margin-bottom: 2rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .section__one {
@@ -127,5 +127,9 @@
     .collection__table__data {
         /* changing from two grid-columns to 1 */
         grid-template-columns: 1fr;
+    }
+
+    .collection__container .header {
+        text-align: center;
     }
 }
