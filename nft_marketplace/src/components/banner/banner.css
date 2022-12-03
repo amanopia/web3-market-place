@@ -10,8 +10,9 @@
 }
 
 .textual__information > p {
-    font-family: "Fox on the Run Extra-Bold", sans-serif;
-    font-size: 4.5rem;
+    /* font-family: "Fox on the Run Extra-Bold", sans-serif; */
+    font-family: "Zen Dots" , cursive;
+    font-size: 3rem;
     line-height: 1;
 }
 
