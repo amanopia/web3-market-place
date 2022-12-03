@@ -5,7 +5,7 @@ const CardSmaller = (props) => {
         <div id="smaller__card__container">
             <div className="smaller__card">
                 {/* 1 */}
-                <img src={props.image} alt="im1" />
+                <img loading="lazy" src={props.image} alt="im1" />
                 {/* 2 */}
                 <div className="smaller__card__text">
                     <h4>{props.title}</h4>
