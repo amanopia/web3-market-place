@@ -118,9 +118,6 @@
     }
 }
 
-.section__three .section__three__heading{
-    margin: 2rem auto 3rem;
-}
 @media screen and (max-width: 700px){
     .section__two {
         /* Sets the display to inline to let the elements accomodate as much space as they want */
@@ -134,5 +131,9 @@
 
     .collection__container .header {
         text-align: center;
+    }
+
+    .section__three .section__three__heading{
+        margin: 2rem auto 3rem;
     }
 }
