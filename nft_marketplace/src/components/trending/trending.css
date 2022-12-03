@@ -75,6 +75,13 @@ section > small {
 /* BREAKPOINT 4 */
 @media screen and (max-width: 500px) {
     section.trending__container {
-        margin-top: 10rem;
+        margin-top: 15rem;
+    }
+}
+
+/* BREAKPOINT 5 */
+@media screen and (max-width: 320px) {
+    section.trending__container {
+        margin-top: 15rem;
     }
 }
