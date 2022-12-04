@@ -1,4 +1,15 @@
 .footer__container {
     display: flex;
-    justify-content: space-between;
+}
+
+.contact__holder > img {
+    aspect-ratio: 3/1 ;
+    width: 10rem;
+    /* height: 10rem; */
+}
+@media screen and (max-width: 1210px) {
+    .container.footer__container {
+
+        margin-top: 30rem;
+    }
 }

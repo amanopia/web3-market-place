@@ -79,7 +79,7 @@
         padding: 0;
     }
     .collection__table__data {
-        /* The width of the container is being liited by the width of the parent container, so to get it out of the flow, position:absolute is being used */
+        /* The width of the container is being limited by the width of the parent container, so to get it out of the flow, position:absolute is being used */
         position: absolute; 
         
         grid-template-columns: repeat(2, 1fr);
