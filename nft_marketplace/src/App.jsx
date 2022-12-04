@@ -4,6 +4,7 @@ import Trending from './components/trending/Trending'
 import Discover from './components/discover/Discover';
 import Collection from './components/top-collection/Collection';
 import CheckCollection from './components/check-collections/Check';
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Discover />
       <Collection />
       <CheckCollection />
+      <Footer />
     </>
   );
 }
