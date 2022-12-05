@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="contact__holder">
         <img src={Logo} alt="site-logo" />
         <p>Enter your email to get notified by fenti for latest updates</p>
-        <input type="text" placeholder='Email address'/>
+        <input type="text" placeholder='Email address' />
       </div>
       {/* Links */}
       <div className="links__container">
