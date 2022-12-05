@@ -5,7 +5,18 @@
 .contact__holder > img {
     aspect-ratio: 3/1 ;
     width: 10rem;
-    /* height: 10rem; */
+}
+
+.contact__holder {
+    width: 25%;
+    font-size: 0.8rem;
+    color: var(--color-text-light);
+}
+
+.contact__holder > input {
+    background: rgb(223, 223, 223);
+    padding: 1rem;
+    width: 100%;
 }
 @media screen and (max-width: 1210px) {
     .container.footer__container {
