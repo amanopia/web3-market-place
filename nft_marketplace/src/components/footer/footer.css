@@ -1,10 +1,12 @@
-.footer__container {
+section.footer__container {
+    margin-top: 5rem;
     display: flex;
+    justify-content: space-between;
 }
 
 .contact__holder > img {
-    aspect-ratio: 3/1 ;
-    width: 10rem;
+    aspect-ratio: 1.8/1 ;
+    width: 5rem;
 }
 
 .contact__holder {
@@ -18,9 +20,23 @@
     padding: 1rem;
     width: 100%;
 }
+
+.links__container {
+    display: flex;
+}
+
+.links__column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem
+}
+.links__column > a {
+    color: var(--color-text-light);
+    margin-top: 0.5rem;
+}
 @media screen and (max-width: 1210px) {
     .container.footer__container {
 
-        margin-top: 30rem;
+        margin-top: 20rem;
     }
 }

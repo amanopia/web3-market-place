@@ -13,13 +13,13 @@ const Footer = () => {
       {/* Links */}
       <div className="links__container">
         <div className="links__column">
-          <div className="links__heading">Fenti</div>
+          <h4 className="links__heading">Fenti</h4>
           <a>Explore</a>
           <a>All NFTs</a>
           <a>About</a>
         </div>
         <div className="links__column">
-          <div className="links__heading">My Account</div>
+          <h4 className="links__heading">My Account</h4>
           <a>Profile</a>
           <a>Favourites</a>
           <a>Watchlist</a>
@@ -27,14 +27,14 @@ const Footer = () => {
           <a>Settings</a>
         </div>
         <div className="links__column">
-          <div className="links__heading">Resources</div>
+          <h4 className="links__heading">Resources</h4>
           <a>Platform Status</a>
           <a>Partners</a>
           <a>Taxes</a>
           <a>Newsletter</a>
         </div>
         <div className="links__column">
-          <div className="links__heading">Community</div>
+          <h4 className="links__heading">Community</h4>
           <a>Help Center</a>
           <a>Fenti Token</a>
           <a>Suggest Feature</a>
