@@ -6,9 +6,8 @@ body {
     overflow-x: hidden;
 }
 
-.header__image {
-    width: 8rem;
-    height: 8rem;
+.header__image > img{
+    width: 5rem;
     object-fit: cover;
     aspect-ratio: 2/1;
     transition: var(--transition);
