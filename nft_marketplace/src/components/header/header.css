@@ -6,6 +6,10 @@ body {
     overflow-x: hidden;
 }
 
+header {
+    margin: 2rem auto 4rem;
+}
+
 .header__image > img{
     width: 5rem;
     object-fit: cover;
@@ -13,8 +17,8 @@ body {
     transition: var(--transition);
 }
 
-.header__image:hover {
-    transform: rotate(30deg);
+.header__image > img:hover {
+    transform: rotate(-15deg);
 }
 
 .header__container {
