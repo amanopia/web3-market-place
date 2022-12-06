@@ -1,0 +1,13 @@
+.footer__lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__lower :nth-child(n) {
+    color: var(--color-text-light);
+    font-size: 0.8rem;
+}
+
+.footer__lower__links :nth-child(2) {
+    margin-left: 1rem;
+}

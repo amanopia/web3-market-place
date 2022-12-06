@@ -2,6 +2,8 @@ section.footer__container {
     margin-top: 7rem;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid rgb(224, 224, 224);
 }
 
 .contact__holder > img {
