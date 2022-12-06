@@ -127,6 +127,7 @@
     .collection__table__data {
         /* changing from two grid-columns to 1 */
         grid-template-columns: 1fr;
+        width: 85%;
     }
 
     .collection__container .header {

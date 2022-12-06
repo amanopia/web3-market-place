@@ -69,3 +69,23 @@ section.footer__container {
         margin-top: 20rem;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .container.footer__container {
+        margin-top: 35rem;
+    }
+
+    .links__container {
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .links__container > .links__column {
+        margin-top: 1rem;
+    }
+
+    .contact__holder {
+        width: 70%;
+    }
+}
