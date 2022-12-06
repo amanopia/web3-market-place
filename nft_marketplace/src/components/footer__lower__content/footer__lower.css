@@ -1,6 +1,7 @@
-.footer__lower {
+div.footer__lower {
     display: flex;
     justify-content: space-between;
+    margin: 2.8rem auto 4rem;
 }
 
 .footer__lower :nth-child(n) {
@@ -10,4 +11,11 @@
 
 .footer__lower__links :nth-child(2) {
     margin-left: 1rem;
+}
+
+@media screen and (max-width: 1160px) {
+    div.footer__lower {
+        flex-direction: column;
+        align-items: center;
+    }
 }
