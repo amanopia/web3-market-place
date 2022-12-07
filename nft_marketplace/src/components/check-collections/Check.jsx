@@ -4,11 +4,17 @@ import CheckCollectioTop from '../check__collection__cards/CheckCollectioTop';
 import {FaEthereum} from 'react-icons/fa';
 import ImagePerson1 from '../../assets/person1 (1).jpg';
 import ImagePerson2 from '../../assets/person2 (1).jpg';
-import Image1 from '../../assets/palette1.jpg';
 import Image2 from '../../assets/palette2.jpg';
-import Image3 from '../../assets/palette3.jpg';
-import Image4 from '../../assets/palette4.jpg';
- 
+import Image3 from '../../assets/abstract2.jpg';
+import Image4 from '../../assets/abstract3.jpg';
+import Image5 from '../../assets/palette3.jpg';
+import Image6 from '../../assets/robo.avif';
+import Image7 from '../../assets/abstract4.jpg';
+import Image8 from '../../assets/abstract5.jpg';
+import Image9 from '../../assets/abstract6.jpg';
+import Image10 from '../../assets/abstract7.jpg';
+
+
 const CheckCollection = () => {
     return (
         <div className="container collection__container" id="check__collections">
@@ -21,7 +27,7 @@ const CheckCollection = () => {
                 {/* Item 1 */}
                 <div className="section__one">
                     {/* Item 1 */}
-                    <img src={Image1} alt="something"/>
+                    <img src={Image9} alt="something"/>
                     {/* Item 2 */}
                     <div className='section__one__data__parent'>
                         <div className='section__one__child__one'>
@@ -53,11 +59,11 @@ const CheckCollection = () => {
                         <h4>Last 7 days</h4>
                     </div>
                     <div className='collection__table__data'>
-                        <CheckCollectioTop number="1" image={Image1} heading="CryptoFunks" price="19,769.39" percentage="+26.52%" state="up"/>
-                        <CheckCollectioTop number="2" image={Image1} heading="Cryptix" price="2,769.41" percentage="+10.52%" state="down"/>
-                        <CheckCollectioTop number="3" image={Image1} heading="Frensware" price="9,232.34" percentage="+3.41%" state="up"/>
-                        <CheckCollectioTop number="4" image={Image1} heading="PunkArt" price="71,234.12" percentage="+12.11%" state="up"/>
-                        <CheckCollectioTop number="5" image={Image1} heading="ArtcRYPTO" price="10,111.31" percentage="+18.19%" state="down"/>
+                        <CheckCollectioTop number="1" image={Image8} heading="CryptoFunks" price="19,769.39" percentage="+26.52%" state="up"/>
+                        <CheckCollectioTop number="2" image={Image5} heading="Cryptix" price="2,769.41" percentage="+10.52%" state="down"/>
+                        <CheckCollectioTop number="3" image={Image6} heading="Frensware" price="9,232.34" percentage="+3.41%" state="up"/>
+                        <CheckCollectioTop number="4" image={Image7} heading="PunkArt" price="71,234.12" percentage="+12.11%" state="up"/>
+                        <CheckCollectioTop number="5" image={Image10} heading="ArtcRYPTO" price="10,111.31" percentage="+18.19%" state="down"/>
                     </div>
                 </div>
             </div>
