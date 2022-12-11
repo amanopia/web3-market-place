@@ -4,9 +4,8 @@ div.footer__lower {
     margin: 2.8rem auto 4rem;
 }
 
-.footer__lower :nth-child(n) {
-    color: var(--color-text-light);
-    font-size: 0.8rem;
+.footer__lower * {
+    font-size: 0.5rem;
 }
 
 .footer__lower__links :nth-child(2) {
