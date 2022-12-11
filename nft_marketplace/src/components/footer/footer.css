@@ -40,6 +40,7 @@ section.footer__container {
 .links__column > a {
     color: var(--color-text-light);
     margin-top: 0.5rem;
+    font-size: 0.7rem;
 }
 
 @media screen and (max-width: 1205px) {
