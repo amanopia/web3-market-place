@@ -1,9 +1,10 @@
 .tag {
     display: flex;
     align-items: center;
+    white-space: nowrap;
     width: max-content;
     gap: 0.6rem;
     padding: 0.7rem;
+    border-radius: 1rem;
     border: 2px solid rgb(225, 225, 225);
-    border-radius: 1rem;;
 }
