@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './footer.css';
 import Logo from '../../assets/fenti-removebg-preview.png'
-import FooterLower from '../footer__lower__content/footer__lower';
+import FooterLower from '../Footer-lower-content/footer__lower';
 const Footer = () => {
   return (
     <div>

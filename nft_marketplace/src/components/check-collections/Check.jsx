@@ -1,6 +1,6 @@
 import './check.css'
-import CheckBid from '../check__bid__cards/CheckBid';
-import CheckCollectioTop from '../check__collection__cards/CheckCollectioTop';
+import CheckBid from '../Check-bid-cards/CheckBid';
+import CheckCollectioTop from '../Check-collection-cards/CheckCollectioTop';
 import {FaEthereum} from 'react-icons/fa';
 import ImagePerson1 from '../../assets/person1 (1).jpg';
 import ImagePerson2 from '../../assets/person2 (1).jpg';

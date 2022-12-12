@@ -19,8 +19,8 @@ import Image11 from '../../assets/dim-gunger-3emffQOvHxA-unsplash.jpg'
 import Image12 from '../../assets/alexander-shatov-DHl49oyrn7Y-unsplash.jpg'
 
 
-import TinyTags from '../tiny-tags/TinyTags';
-import CardSmaller from '../cards-smaller/CardSmaller';
+import TinyTags from '../Tiny-tags/TinyTags';
+import CardSmaller from '../Cards-smaller/CardSmaller';
 
 import './discover.css';
 
