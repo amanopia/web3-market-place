@@ -5,3 +5,6 @@ This is a front-end project site for a web3 market place. I found the inspiratio
 ### Assets
 I found the assets on Unsplash, which has this massive resource of free to use images. I came across Unsplash during my period as a graphic designer in college, and it has stayed with me since.
 For the logo, I took the colors of the original logo but decided to give the name a spin.
+
+### Link to the demo project
+https://preeminent-semifreddo-93621a.netlify.app/
