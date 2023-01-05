@@ -7,4 +7,4 @@ I found the assets on Unsplash, which has this massive resource of free to use i
 For the logo, I took the colors of the original logo but decided to give the name a spin.
 
 ### Link to the demo project
-https://preeminent-semifreddo-93621a.netlify.app/
+https://web3-nft-marketplace.netlify.app
